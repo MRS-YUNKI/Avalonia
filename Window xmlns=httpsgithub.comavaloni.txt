@@ -1,0 +1,427 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Width="1920" Height="9264"
+        x:Class="Avalonia_Testing.MainWindow"
+        Title="Avalonia_Testing">
+	<StackPanel>
+		<!--Верхняя часть-->
+		<StackPanel Width="1920" Height="80">
+			<StackPanel Orientation="Horizontal" Width="1888" Height="48">
+				<StackPanel Orientation="Horizontal" Width="253.917" Height="48">
+					<Image Cursor="Hand" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\Pinterest_Logo.png" Width="125" Height="23" Margin="0 25"/>
+					<Button Margin="0 10" Width="131.917" Height="48" Cursor="Hand" Background="Black" FontFamily="Default Latin" FontWeight="DemiBold" FontSize="16" CornerRadius="25">
+						<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Cursor="Hand" Foreground="White">Просмотреть</TextBlock>
+					</Button>
+				</StackPanel>
+				<Button Width="1359.15" Height="48" FontFamily="Default Latin" FontSize="16" Margin="8 10" Padding="8 8" Background="#f1f1f1" CornerRadius="25">
+					<TextBox VerticalAlignment="Center" FontSize="16" Background="#f1f1f1" BorderThickness="0" CornerRadius="25" Watermark="Идеи простых блюд на ужин, модных образов и многое другое"/>
+				</Button>
+				<Button Width="77.3667" Height="48" FontFamily="Default Latin" FontSize="16" FontWeight="DemiBold" Margin="8 10" Padding="8 8" Background="#e9e9e9" CornerRadius="25">
+					<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Cursor="Hand" Foreground="Black">Войти</TextBlock>
+				</Button>
+				<Button Width="125.567" Height="48" FontFamily="Default Latin" FontSize="16" FontWeight="DemiBold" Margin="0 10" Padding="8 8" Background="#e60023" CornerRadius="25">
+					<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Cursor="Hand" Foreground="White">Регистрация</TextBlock>
+				</Button>
+				<SplitButton Width="24" Height="24" Background="Transparent" Margin="8 20" CornerRadius="25">
+					<SplitButton.Flyout>
+						<MenuFlyout>
+							<MenuItem HorizontalAlignment="Left" FontFamily="Default Latin" FontSize="16" FontWeight="Bold" Header="Что такое Pinterest"/>
+							<MenuItem HorizontalAlignment="Left" FontFamily="Default Latin" FontSize="16" FontWeight="Bold" Header="Просмотреть условия и политику конфиденциальности"/>
+						</MenuFlyout>
+					</SplitButton.Flyout>
+				</SplitButton>
+			</StackPanel>
+		</StackPanel>
+
+		<!--Основная часть-->
+		<StackPanel Orientation="Vertical" Width="1920" Height="9184" Margin="0 20">
+			<StackPanel Width="1244" Height="428">
+				<TextBlock HorizontalAlignment="Left" FontFamily="Default Latin" FontSize="36" FontWeight="SemiBold">Просмотрите лучшие результаты в Pinterest</TextBlock>
+				
+				<!--Первый ряд-->
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Spacing="10" Margin="0 20">
+					<Border Margin="0 20" ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+						<Button Cursor="Hand" Width="236" Height="118" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+							<Grid>
+								<Image Width="236" Height="118" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+								<Rectangle Width="236" Height="118" Fill="#80000000"/>
+								<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+							</Grid>
+						</Button>
+					</Border>
+					<Border Margin="5 20" ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+						<Button Cursor="Hand" Width="236" Height="118" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+							<Grid>
+								<Image Width="236" Height="118" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\05a698e8295457728ff5b0e5472d3f2813.jpg"/>
+								<Rectangle Width="236" Height="118" Fill="#80000000"/>
+								<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Искусство" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+							</Grid>
+						</Button>
+					</Border>
+					<Border Margin="0 20" ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+						<Button Cursor="Hand" Width="236" Height="118" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+							<Grid>
+								<Image Width="236" Height="118" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\3e7569d750a771d5c5ed6ebd1c25aa1914.jpg"/>
+								<Rectangle Width="236" Height="118" Fill="#80000000"/>
+								<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Красота" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+							</Grid>
+						</Button>
+					</Border>
+					<Border Margin="5 20" ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+						<Button Cursor="Hand" Width="236" Height="118" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+							<Grid>
+								<Image Width="236" Height="118" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\5d92e99a415012c93e65e529742a902c16.jpg"/>
+								<Rectangle Width="236" Height="118" Fill="#80000000"/>
+								<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Дизайн" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+							</Grid>
+						</Button>
+					</Border>
+					<Border Margin="0 20" ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+						<Button Cursor="Hand" Width="236" Height="118" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+							<Grid>
+								<Image Width="236" Height="118" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\d43b985a3372a50816b6c243f140135813.jpg"/>
+								<Rectangle Width="236" Height="118" Fill="#80000000"/>
+								<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextWrapping="Wrap" TextAlignment="Center" Text="Изделия Своими Руками И Ремесла" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+							</Grid>
+						</Button>
+					</Border>
+				</StackPanel>
+				
+				<!--Второй ряд-->
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Spacing="10" Margin="0 -20">
+					<Border Margin="0 -5" ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+						<Button Cursor="Hand" Margin="0 0" Width="236" Height="118" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+							<Grid>
+								<Image Width="236" Height="118" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\72d9af964d384fc2a16fd087c1062a7c16.jpg"/>
+								<Rectangle Width="236" Height="118" Fill="#80000000"/>
+								<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Еда И Напитки" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+							</Grid>
+						</Button>
+					</Border>
+					<Border Margin="5 -5" ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+						<Button Cursor="Hand" Margin="0 0" Width="236" Height="118" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+							<Grid>
+								<Image Width="236" Height="118" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\ae234ddf0826afc435e6c1388d1cc3b811.jpg"/>
+								<Rectangle Width="236" Height="118" Fill="#80000000"/>
+								<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Домашний Декор" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+							</Grid>
+						</Button>
+					</Border>
+					<Border Margin="0 -5" ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+						<Button Cursor="Hand" Margin="0 0" Width="236" Height="118" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+							<Grid>
+								<Image Width="236" Height="118" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\b8ac51e8e5d9de70114f43157490707213.jpg"/>
+								<Rectangle Width="236" Height="118" Fill="#80000000"/>
+								<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Мужская Мода" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+							</Grid>
+						</Button>
+					</Border>
+					<Border Margin="5 -5" ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+						<Button Cursor="Hand" Margin="0 0" Width="236" Height="118" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+							<Grid>
+								<Image Width="236" Height="118" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\89920c9d727e2c486302ed33c96ec43411.jpg"/>
+								<Rectangle Width="236" Height="118" Fill="#80000000"/>
+								<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Цитаты" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+							</Grid>
+						</Button>
+					</Border>
+					<Border Margin="0 -5" ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+						<Button Cursor="Hand" Margin="0 0" Width="236" Height="118" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+							<Grid>
+								<Image Width="236" Height="118" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\8dfd06c0d6d7e108ff6ecf939c0ee1b513.jpg"/>
+								<Rectangle Width="236" Height="118" Fill="#80000000"/>
+								<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Татуировки" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+							</Grid>
+						</Button>
+					</Border>
+				</StackPanel>
+				<StackPanel Width="1244" Height="48" Margin="0 30">
+					<Border HorizontalAlignment="Center">
+						<Button HorizontalAlignment="Center" Width="117.583" Height="48" FontFamily="Default Latin" FontSize="16" FontWeight="DemiBold" Margin="8 10" Padding="8 8" Background="#e9e9e9" CornerRadius="25">
+							<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Cursor="Hand" Foreground="Black">Подробнее</TextBlock>
+						</Button>
+					</Border>
+				</StackPanel>
+				
+				<!--Лента-->
+				<TextBlock HorizontalAlignment="Left" FontFamily="Default Latin" FontSize="32" FontWeight="SemiBold">Что нового в Pinterest</TextBlock>
+				<StackPanel Width="1252" Height="9047" Orientation="Horizontal">
+					
+					<!--Первый столбец-->
+					<StackPanel Orientation="Vertical" HorizontalAlignment="Left" Spacing="10" Margin="15 0">
+						<Border Margin="0 20" ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="416.15" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="416.15" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="416.15" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="311.867" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="311.867" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="311.867" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="416.15" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="416.15" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="416.15" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="234.4" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="234.4" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="234.4" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="351.6" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="351.6" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="351.6" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="468.8" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="468.8" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="468.8" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="398" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="398" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="398" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="185.717" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="185.717" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="185.717" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="186.717" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="186.717" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="186.717" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="311.867" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="311.867" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="311.867" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="234.4" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="234.4" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="234.4" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="234.4" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="234.4" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="234.4" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="242.333" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="242.333" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="242.333" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="231.417" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="231.417" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="231.417" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="311.867" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="311.867" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="311.867" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="416.15" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="416.15" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="416.15" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="368.483" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="368.483" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="368.483" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="416.15" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="416.15" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="416.15" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="416.15" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="416.15" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="416.15" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="286.033" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="286.033" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="286.033" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+					</StackPanel>
+					
+					<!--Второй столбец-->
+					<StackPanel Orientation="Vertical" HorizontalAlignment="Left" Spacing="10">
+						<Border Margin="0 20" ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="496" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="496" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="496" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="496" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="496" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="496" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+					</StackPanel>
+					
+					<!--Третий столбец-->
+					<StackPanel Orientation="Vertical" HorizontalAlignment="Left" Spacing="10" Margin="15 0">
+						<Border Margin="0 20" ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="496" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="496" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="496" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="496" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="496" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="496" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+					</StackPanel>
+
+					<!--Четвертый столбец-->
+					<StackPanel Orientation="Vertical" HorizontalAlignment="Left" Spacing="10">
+						<Border Margin="0 20" ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="496" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="496" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="496" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="496" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="496" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="496" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+					</StackPanel>
+
+					<!--Пятый столбец-->
+					<StackPanel Orientation="Vertical" HorizontalAlignment="Left" Spacing="10" Margin="15 0">
+						<Border Margin="0 20" ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="496" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="496" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="496" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+						<Border ClipToBounds="True" HorizontalAlignment="Left" CornerRadius="20">
+							<Button Cursor="Hand" Width="234.4" Height="496" CornerRadius="20" Foreground="Transparent" Background="Transparent">
+								<Grid>
+									<Image Width="234.4" Height="496" Source="C:\Users\prdb\Desktop\Avelonia projects (EK)\Avalonia Testing\6a5f04d8a48c25453fb81f744aece9ce14.jpg"/>
+									<Rectangle Width="234.4" Height="496" Fill="#80000000"/>
+									<TextBlock FontFamily="Default Latin" FontWeight="SemiBold" TextAlignment="Center" Text="Животные" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+								</Grid>
+							</Button>
+						</Border>
+					</StackPanel>
+				</StackPanel>
+			</StackPanel>
+		</StackPanel>
+	</StackPanel>
+</Window>
